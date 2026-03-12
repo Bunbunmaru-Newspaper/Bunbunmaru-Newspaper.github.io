@@ -10,6 +10,7 @@ function languagechange() {
         document.getElementById("descriptionpart2").innerHTML = "Esto es una recopilación de todos los artículos de Bunbunmaru pasados";
         document.getElementById("articletitle").innerHTML = "Forma de escritura nuevamente inventada revoluciona Gensokyo"
         document.getElementById("link").innerHTML = "Leer el artículo"
+        return
     }else{
         document.getElementById("title").innerHTML = "BUNBUNMARU NEWSPAPER";
         document.getElementById("description").innerHTML = "Welcome to the OFFICIAL 100% REAL bunbunmaru newsletter!";

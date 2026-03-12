@@ -36,12 +36,13 @@ img{
     margin: auto;
 }
 
-/* body{
-     background-image: url(images/fossilized.jpg);
-} */
+body{
+     background-color: rgb(188, 171, 145);
+}
 
 div {
     float: right;
+    height: 50%;
 }
 /* The switch - the box around the slider */
 .switch {
@@ -104,4 +105,35 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+hr{
+  height: 15px;
+  border-color: rgb(83, 64, 35);
+  color: rgb(83, 64, 35);
+  background-color: rgb(83, 64, 35);
+}
+
+#yes{
+  height: 5px;
+  color: rgb(83, 64, 35);
+  background-color: rgb(83, 64, 35);
+}
+
+h1{
+font-size: 52px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.kindathickbutkindathin {
+  height: 10px;
+  color: rgb(83, 64, 35);
+  background-color: rgb(83, 64, 35);
+}
+
+a {
+  color: black
 }
