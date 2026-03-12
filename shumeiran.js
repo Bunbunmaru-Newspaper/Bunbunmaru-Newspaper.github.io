@@ -7,7 +7,7 @@ function languagechange() {
     if(language % 2 == 0){
         document.getElementById("title").innerHTML = "Forma de escritura nuevamente inventada revoluciona Gensokyo";
         document.getElementById("SHOCKING").innerHTML = "<b>INESPERADO</b> 🚨🚨🚨";
-        document.getElementById("article").innerHTML = "Michigami ha supuestamente dejado de usar jeroglíficos egipcios y ha cambiado a Shumeiran. <br><br> Como nuestro testigo La Gran Aya Shameimaru reporta: <br><br> ''De repente la escuché diciendo 《 Ostia, estos jeroglíficos egipcios son bien malos. Ojalá y hubiera una forma de escritura que fuera más simple y más <i>ELEGANTE</i>. Estos jeroglíficos me están volviendo loca, porqué no pudo haber otra forma de escritura》<br><br> Eso es cuando Michigami supuestamente fue ilusionada por ni más ni menos que la Gran Aya Shameimaru. <br><br> El testigo reporta nuevamente: <br><br> ''Fue encantada por eta ilustración, después procedería a compartirlo con las 0 personas cercanas, y después empezó a reescribir todos los documentos escritos en jeroglíficos egipcios al nuevamente inventado Shumeiran'' <br> Esto es todo por how, hasta la proxima. Ayaya!";
+        document.getElementById("article").innerHTML = "Michigami ha supuestamente dejado de usar jeroglíficos egipcios y ha cambiado a Shumeiran. <br><br> Como nuestro testigo La Gran Aya Shameimaru reporta: <br><br> ''De repente la escuché diciendo 《 Ostia, estos jeroglíficos egipcios son bien malos. Ojalá y hubiera una forma de escritura que fuera más simple y más <i>ELEGANTE</i>. Estos jeroglíficos me están volviendo loca, porqué no pudo haber otra forma de escritura》<br><br> Eso es cuando Michigami supuestamente fue ilusionada por ni más ni menos que la Gran Aya Shameimaru. <br><br> El testigo reporta nuevamente: <br><br> ''Fue encantada por eta ilustración, después procedería a compartirlo con las 0 personas cercanas, y después empezó a reescribir todos los documentos escritos en jeroglíficos egipcios al nuevamente inventado Shumeiran'' <br> Esto es todo por hoy, hasta la proxima. Ayaya!";
         document.getElementById("niggers").innerHTML = "Regresar a la página principal";
         return
     }else{
@@ -19,4 +19,5 @@ function languagechange() {
     }
 
 }
+
 
