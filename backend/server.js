@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const cors = require("cors");
+const cors = require('cors');
+app.use(cors({ origin: '*' }));
 
 const Post = require("./models/Post");
 const Vote = require("./models/Vote");
