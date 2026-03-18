@@ -1,14 +1,18 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const cors = require('cors');
-app.use(cors({ origin: '*' }));
+const cors = require("cors");
+
+const app = express();                   // <-- Initialize app first
+
+app.use(cors({ origin: "*" }));          // <-- Then use middleware
+app.use(express.json());
 
 const Post = require("./models/Post");
 const Vote = require("./models/Vote");
 
-const app = express();
-app.use(cors({ origin: "*" }));
-app.use(express.json());
+// Your routes and logic here...
+
+app.listen(3000, () => console.log("Server running on port 3000"));
 
 // 🔗 CONNECT TO MONGODB ATLAS
 mongoose.connect("YOUR_MONGODB_URI_HERE")
