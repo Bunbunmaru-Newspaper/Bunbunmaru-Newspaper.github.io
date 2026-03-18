@@ -20,4 +20,44 @@ function languagechange() {
 
 }
 
+const API = "https://bunbunmaru-newspaper-github-io.onrender.com";
+const POST_ID = "PUT_POST_ID_HERE";
+
+// 🧠 Generate user ID (per device)
+let userId = localStorage.getItem("userId");
+
+if (!userId) {
+  userId = "user_" + Math.random().toString(36).substr(2, 9);
+  localStorage.setItem("userId", userId);
+}
+
+// Load post
+async function loadPost() {
+  const res = await fetch(`${API}/post/${POST_ID}`);
+  const data = await res.json();
+
+  document.getElementById("likes").textContent = data.likes;
+  document.getElementById("dislikes").textContent = data.dislikes;
+}
+
+// Vote
+async function vote(type) {
+  const res = await fetch(`${API}/vote/${POST_ID}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      userId,
+      value: type
+    })
+  });
+
+  const data = await res.json();
+
+  document.getElementById("likes").textContent = data.likes;
+  document.getElementById("dislikes").textContent = data.dislikes;
+}
+
+loadPost();
 
