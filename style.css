@@ -2,17 +2,20 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: center;
 }
 
-table, td, tr, th{
+td{
     border: solid, black, 2px;
     border-collapse: collapse;
     background-color: white;
+    width: 33%;
 }
 
 table{
     /* margin-left: auto;
     margin-right: auto; */
-    width: 33%;
+    width: 98%;
     text-align: center;
+    display: block;
+    margin: auto;
 }
 
 #SHOCKING{
@@ -34,6 +37,7 @@ h1,h2,h3,h4,h5,h6,p,tr,td,th,div{
 img{
     display: block;
     margin: auto;
+    height: 10%;
 }
 
 body{
@@ -42,7 +46,7 @@ body{
 
 div {
     float: right;
-    height: 50%;
+    height: 10%;
 }
 /* The switch - the box around the slider */
 .switch {
