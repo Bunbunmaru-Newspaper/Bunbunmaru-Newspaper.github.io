@@ -1,4 +1,19 @@
 let language = 1
+let unlock = 0
+
+function unlockf() {
+    let answer = prompt("Who is the best reporter?")
+    if(answer == "Aya" || answer == "Shameimaru" || answer == "aya" || answer == "shameimaru" || answer == "Aya Shameimaru" || answer == "aya shameimaru"){
+        unlock = unlock + 1;
+        alert("Access granted");
+    }else{
+        alert("Access denied");
+    }
+
+    if(unlock > 0){
+        document.getElementById("link4").href = "aya_googing.html"
+    }
+}
     
 function languagechange() {
 
@@ -14,6 +29,8 @@ function languagechange() {
         document.getElementById("articletitle4").innerHTML = "Proprietaria del bunbunmaru ha FINALMENTE sido expuesta";
         document.getElementById("link1").innerHTML = "Leer el artículo";
         document.getElementById("link2").innerHTML = "Leer el artículo";
+        document.getElementById("link3").innerHTML = "Leer el artículo";
+        document.getElementById("link4").innerHTML = "Leer el artículo";
         document.getElementById("copyright").innerHTML = "Todos los personajes fueron tomados de Touhou Project por Team Shanghai Alice. ZUN, por favor no me demandes al vacío"
         return
     }else{
@@ -26,6 +43,8 @@ function languagechange() {
         document.getElementById("articletitle4").innerHTML = "Bunbunmaru owner FINALLY exposed";
         document.getElementById("link1").innerHTML = "Read the article";
         document.getElementById("link2").innerHTML = "Read the article";
+        document.getElementById("link3").innerHTML = "Read the article";
+        document.getElementById("link4").innerHTML = "Read the article";
         document.getElementById("copyright").innerHTML = "All characters are taken from touhou project by Team Shanghai Alice. Please don't sue my ass into oblivion ZUN"
         return
     }

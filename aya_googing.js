@@ -5,16 +5,18 @@ function languagechange() {
     language = language + 1;
 
     if(language % 2 == 0){
-        document.getElementById("title").innerHTML = "Forma de escritura nuevamente inventada revoluciona Gensokyo";
-        document.getElementById("SHOCKING").innerHTML = "<b>INESPERADO</b> 🚨🚨🚨";
-        document.getElementById("article").innerHTML = "Michigami ha supuestamente dejado de usar jeroglíficos egipcios y ha cambiado a Shumeiran. <br><br> Como nuestro testigo La Gran Aya Shameimaru reporta: <br><br> ''De repente la escuché diciendo 《 Ostia, estos jeroglíficos egipcios son bien malos. Ojalá y hubiera una forma de escritura que fuera más simple y más <i>ELEGANTE</i>. Estos jeroglíficos me están volviendo loca, porqué no pudo haber otra forma de escritura》<br><br> Eso es cuando Michigami supuestamente fue ilusionada por ni más ni menos que la Gran Aya Shameimaru. <br><br> El testigo reporta nuevamente: <br><br> ''Fue encantada por eta ilustración, después procedería a compartirlo con las 0 personas cercanas, y después empezó a reescribir todos los documentos escritos en jeroglíficos egipcios al nuevamente inventado Shumeiran'' <br> Esto es todo por hoy, hasta la proxima. Ayaya!";
+        document.getElementById("title").innerHTML = "Proprietaria del bunbunmaru ha FINALMENTE sido expuesta";
+        document.getElementById("SHOCKING").innerHTML = "<b>REPULSIVO</b> 🚨🚨🚨";
+        document.getElementById("article").innerHTML = "Este lunes, la proprietaria del Bunbunmaru y reportera principal, Aya Shameimaru, fue expuesta por algunas acciones malévolas.<br><br>Se ha insinuado repetidamente que Aya ha cometido crímenes repugnantes, como tomar fotos de menores (hadas) sin su consentimiento. <br><br> Bueno, finalmente la hemos descubierto y podemos confirmar que Aya SÍ toma fotos de menores, pero hemos descubierto algo más: Aya Shameimaru toma y guarda fotos de Hatate y Momiji y luego se pajea con ellas. ¡Verdaderamente repugnante! <br><br>Y lo peor de todo, se confirmó que Aya Shameimaru era amiga de nada menos que Jeffrey Epstein. La imagen a continuación es prueba de esta afirmación. <br><br>";
         document.getElementById("niggers").innerHTML = "Regresar a la página principal";
+        document.getElementById("bye").innerHTML = "Eso es todo por hoy, hasta la próxima. Ayaya!";
         return
     }else{
-        document.getElementById("title").innerHTML = "Newly invented writing form takes Gensokyo by storm";
-        document.getElementById("SHOCKING").innerHTML = "<b>SHOCKING</b> 🚨🚨🚨";
-        document.getElementById("article").innerHTML = "Michigami has reportedly stopped using Egyptian glyphs and has changed to Shumeiran. <br><br> As our witness The Great Aya Shameimaru reports: <br><br> ''I suddenly heard her saying 《 Man, these Egyptian glyphs suck. I wish there was a simpler and <i>FANCIER</i> writing style. These glyphs are driving me nuts, why couldn't there be another writing style》<br><br> That's when Michigami allegedly got enlightened by none other than the Great Aya Shameimaru. <br><br> The witness yet again reports: <br><br> ''She was overjoyed by this enlightenment, she then proceeded to share it to the nearby 0 people, and later she started to re-write all documents written in Egyptian glyphs to the newly discovered Shumeiran'' <br> That's it for today, tune in next time. Ayaya!";
+        document.getElementById("title").innerHTML = "Bunbunmaru owner FINALLY exposed";
+        document.getElementById("SHOCKING").innerHTML = "<b>REPULSIVE</b> 🚨🚨🚨";
+        document.getElementById("article").innerHTML = "This Monday, Bunbunmaru's owner and MAIN reporter, Aya Shameimaru has been exposed of some malevolant actions.<br><br>It has been implied time and time again that Aya has commited disgusting crimes like taking photos of minors(fairies) without their consent. <br><br>Well, we have finally caught up to her and can confirm that Aya does IN FACT take photos of minors, but we have exposed of yet another thing, Aya Shameimaru takes and saves pictures of Hatate and Momiji and then jerks off to them afterwards, truly disgusting! <br><br>And worst of all, it was confirmed that Aya Shameimaru was friends with none other than Jeffrey Epstein. The picture below is evidence of this claim <br><br></br>";
         document.getElementById("niggers").innerHTML = "Back to home";
+        document.getElementById("bye").innerHTML = "That's it for today, tune in next time. Ayaya!";
         return
     }
 
