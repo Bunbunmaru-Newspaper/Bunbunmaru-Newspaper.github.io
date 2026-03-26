@@ -3,7 +3,7 @@ let unlock = 0
 
 function unlockf() {
     let answer = prompt("Who is the best reporter?")
-    if(answer == "Aya" || answer == "Shameimaru" || answer == "aya" || answer == "shameimaru" || answer == "Aya Shameimaru" || answer == "aya shameimaru"){
+    if(answer == "Aya" || answer == "Shameimaru" || answer == "aya" || answer == "shameimaru" || answer == "Aya Shameimaru" || answer == "aya shameimaru" || answer == "yuuka" || answer == "Yuuka"){
         unlock = unlock + 1;
         alert("Access granted");
     }else{
