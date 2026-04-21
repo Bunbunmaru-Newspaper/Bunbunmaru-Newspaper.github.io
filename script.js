@@ -31,6 +31,8 @@ function languagechange() {
         document.getElementById("link2").innerHTML = "Leer el artículo";
         document.getElementById("link3").innerHTML = "Leer el artículo";
         document.getElementById("link4").innerHTML = "Leer el artículo";
+        document.getElementById("link5").innerHTML = "Leer el artículo";
+        document.getElementById("suggestions").innerHTML = "Si tienen alguna idea o sugerencia envíen un correo con la idea/artículo y como quieren ser acretidatos a bunbunmarusuggestions@gmail.com";
         document.getElementById("copyright").innerHTML = "Todos los personajes fueron tomados de Touhou Project por Team Shanghai Alice. ZUN, por favor no me demandes al vacío"
         return
     }else{
@@ -45,6 +47,8 @@ function languagechange() {
         document.getElementById("link2").innerHTML = "Read the article";
         document.getElementById("link3").innerHTML = "Read the article";
         document.getElementById("link4").innerHTML = "Read the article";
+        document.getElementById("link5").innerHTML = "Read the article";
+        document.getElementById("suggestions").innerHTML = "If you have any idea or suggestion send an email with the idea/article and how you want to be credited to bunbunmarusuggestions@gmail.com";
         document.getElementById("copyright").innerHTML = "All characters are taken from touhou project by Team Shanghai Alice. Please don't sue my ass into oblivion ZUN"
         return
     }
