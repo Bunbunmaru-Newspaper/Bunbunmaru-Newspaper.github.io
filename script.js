@@ -27,11 +27,14 @@ function languagechange() {
         document.getElementById("articletitle2").innerHTML = "Misil balístico destruye Starbucks en Tel Aviv";
         document.getElementById("articletitle3").innerHTML = "Caso de desaparición de 1 año de antigüedad FINALMENTE ha sido resuelto";
         document.getElementById("articletitle4").innerHTML = "Proprietaria del bunbunmaru ha FINALMENTE sido expuesta";
+        document.getElementById("articletitle5").innerHTML = "Anciana expuesta como pervertida";
+        document.getElementById("articletitle6").innerHTML = "Satori Komeiji ha sido demandada!";
         document.getElementById("link1").innerHTML = "Leer el artículo";
         document.getElementById("link2").innerHTML = "Leer el artículo";
         document.getElementById("link3").innerHTML = "Leer el artículo";
         document.getElementById("link4").innerHTML = "Leer el artículo";
         document.getElementById("link5").innerHTML = "Leer el artículo";
+        document.getElementById("link6").innerHTML = "Leer el artículo";
         document.getElementById("suggestions").innerHTML = "Si tienen alguna idea o sugerencia envíen un correo con la idea/artículo y como quieren ser acretidatos a bunbunmarusuggestions@gmail.com";
         document.getElementById("copyright").innerHTML = "Todos los personajes fueron tomados de Touhou Project por Team Shanghai Alice. ZUN, por favor no me demandes al vacío"
         return
@@ -43,12 +46,15 @@ function languagechange() {
         document.getElementById("articletitle2").innerHTML = "Ballistic missile strikes Starbucks in Tel Aviv";
         document.getElementById("articletitle3").innerHTML = "1 year-long disappearance case has FINALLY been solved";
         document.getElementById("articletitle4").innerHTML = "Bunbunmaru owner FINALLY exposed";
+        document.getElementById("articletitle5").innerHTML = "Old hag exposed as pervert";
+        document.getElementById("articletitle6").innerHTML = "Satori Komeiji has been sued!";
         document.getElementById("link1").innerHTML = "Read the article";
         document.getElementById("link2").innerHTML = "Read the article";
         document.getElementById("link3").innerHTML = "Read the article";
         document.getElementById("link4").innerHTML = "Read the article";
         document.getElementById("link5").innerHTML = "Read the article";
-        document.getElementById("suggestions").innerHTML = "If you have any idea or suggestion send an email with the idea/article and how you want to be credited to bunbunmarusuggestions@gmail.com";
+        document.getElementById("link6").innerHTML = "Read the article";
+        document.getElementById("suggestions").innerHTML = "If you have any idea or suggestion send an email with the idea/article and how you want to be credited to bunbunmarusuggestions@gmail.comjsa1";
         document.getElementById("copyright").innerHTML = "All characters are taken from touhou project by Team Shanghai Alice. Please don't sue my ass into oblivion ZUN"
         return
     }
